@@ -3,7 +3,7 @@ package br.com.engenhariasoftware.teste;
 import br.com.engenhariasoftware.negocio.Cachorro;
 
 public class TesteCachorro {
-	
+	// teste2
 	public TesteCachorro() {
 		Cachorro c1 = new Cachorro("Pastor alemão", 10, 59, 43);
 		c1.caminha();

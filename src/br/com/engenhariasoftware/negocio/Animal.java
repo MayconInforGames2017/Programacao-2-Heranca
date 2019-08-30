@@ -7,6 +7,7 @@ public abstract class Animal implements Reino {
 	protected double tamanho;
 	protected double peso;
 
+	
 	public Animal(String nome, int idade, double tamanho, double peso) {
 		this.nome = nome;
 		this.idade = idade;

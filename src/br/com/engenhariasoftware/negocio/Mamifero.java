@@ -6,6 +6,7 @@ public abstract class Mamifero extends Animal {
 
 	public abstract void vertebrados();
 
+	
 	public Mamifero(String nome, int idade, double tamanho, double peso) {
 		super(nome, idade, tamanho, peso);
 	}

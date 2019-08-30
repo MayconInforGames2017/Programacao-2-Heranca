@@ -3,7 +3,7 @@ package br.com.engenhariasoftware.teste;
 import br.com.engenhariasoftware.negocio.BemTeVi;
 
 public class TesteBemTeVi {
-	
+	//teste1
 	public TesteBemTeVi() {
 		BemTeVi b1 = new BemTeVi("Bem te vi", 2, 40, 170);
 		b1.caminha();

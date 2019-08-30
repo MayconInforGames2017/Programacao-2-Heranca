@@ -6,31 +6,26 @@ public class Vaca extends Mamifero implements Reino {
 		super(nome, idade, tamanho, peso);
 	}
 
-	@Override
 	public void caminha() {
 		System.out.println("A vaca caminha sobre o pasto");
 	}
 
-	@Override
 	public void especie() {
 		System.out.println("O nome vaca é atribuído às fêmeas dos mamíferos da espécie Bos taurus." 
 				+ "Touro é o nome dado ao macho reprodutivo; boi," 
 				+ "ao macho castrado; novilho, ao gado jovem; e bezerro, ao filhote. ");
 	}
 
-	@Override
 	public void domi() {
 		System.out.println("O " + nome + " passa 8 horas ruminando e 8 horas dormindo.");
 		
 	}
 
-	@Override
 	public void come() {
 		System.out.println("O " + nome + " passa 8 horas por dia comendo");
 		
 	}
 
-	@Override
 	public void vertebrados() {
 		System.out.println("Todas as vacas são vertebradas.");
 		
